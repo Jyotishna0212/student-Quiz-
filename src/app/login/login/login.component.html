@@ -1,0 +1,72 @@
+<div class="account-content">
+  <div class="container">
+   
+    <!-- /Account Logo -->
+
+    <div class="account-box">
+      <div class="account-wrapper">
+        <h3 class="account-title">Student Registeration</h3>
+        <p class="account-subtitle">Mandatory Details</p>
+
+        <!-- Account Form -->
+        <!-- <form  (submit)="stu_login($event)"> -->
+          <form >
+          <!-- <form  (submit)="stu_login($event)"[formGroup]  class="form-horizontal"> -->
+            <div class="form-group">
+              <label for="Name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your Name " required>
+              </div>
+
+            <div class="form-group">
+              <label for="Name">Roll Number</label>
+              <input type="number" class="form-control" id="roll_number" placeholder="Enter Roll Number" required>
+              </div>
+              <div class="form-group">
+                <label for="Name">Class</label>
+                
+                <select class="form-select" aria-label="Default select example"  id="stu_class" required>
+                 <option selected>Select class</option>
+                  <option value="9">I</option>
+                  <option value="12">II</option>
+                  <option value="14">III</option>
+                  <option value="16">IV</option>
+                  <option value="19">V</option>
+                  <option value="42">VI</option>
+                  <option value="24">VII</option>
+                  <option value="27">VIII</option>
+                  <option value="62">IX</option>
+                  <option value="66">X</option>
+                </select>
+                
+                </div>
+             
+
+
+     
+
+         
+            <div class="form-group text-center">
+              <button class="btn btn-primary account-btn"  routerLink="/layout/dashboard/all-subject-test" type="submit" >Login</button>
+              <!-- <a href="/quetion-paper" class="btn btn-primary account-btn"    type="submit" >Login</a> -->
+
+              <!-- <button class="btn btn-primary account-btn" routerLink="/quetion-paper" (click)="startQuiz()">Start the Quiz!!</button> -->
+
+            </div>
+            <!-- <div class="form-group text-center">
+              <a class="btn btn-primary account-btn"  routerLink="/login/register" type="submit" >Login</a>
+              <a href="/quetion-paper" class="btn btn-primary account-btn"    type="submit" >Login</a>
+
+              <button class="btn btn-primary account-btn" routerLink="/quetion-paper" (click)="startQuiz()">Start the Quiz!!</button>
+
+            </div> -->
+
+
+            
+              
+    
+      </form>  
+        <!-- /Account Form -->
+      </div>
+    </div>
+  </div>
+</div>

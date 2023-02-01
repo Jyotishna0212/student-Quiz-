@@ -1,0 +1,50 @@
+<div class="content container-fluid">
+    <div class="page-header">
+        <div class="row">
+            <div class="col-sm-12">
+                <h3 class="page-title">Welcome Admin!</h3>
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item active">Dashboard</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+            <div class="card dash-widget">
+                <div class="card-body">
+                    <div class="dash-widget-info">
+                        <label for="test"></label>
+                        <a class="btn" (click)="onClick" id="newtest" routerLink="/layout/dashboard/all-subject-test">
+                            New Test</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+            <div class="card dash-widget">
+                <div class="card-body">
+                    <div class="dash-widget-info">
+                        <button class="btn" id="test" routerLink="/layout/dashboard/oldtest">
+                            Old test
+                        </button>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+            <div class="card dash-widget">
+                <div class="card-body">
+                    <div class="dash-widget-info">
+                        <button class="btn" id="test" routerLink="/layout/dashboard/markssheet">
+                            Marks Sheet
+                        </button>
+
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
